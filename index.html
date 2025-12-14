@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Professional cleaning services for homes and offices. Book online today."
+    />
+
+    <title>CleanPro - Professional Cleaning Services</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="icon/clean-house.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <main>
+      <!-- navbar -->
+      <nav
+        class="navbar navbar-expand-lg fixed-top py-4 nav-scroll"
+        aria-label="Offcanvas navbar large"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">CleanPro</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar2"
+            aria-controls="offcanvasNavbar2"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-offcanvas"
+            tabindex="-1"
+            id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbar2Label"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">
+                CleanPro
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav justify-content-lg-end align-items-lg-center flex-grow-1 pe-4 gap-4"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active offcanvas-color"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link offcanvas-color" href="#about-us"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link offcanvas-color" href="#services"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link offcanvas-color" href="#pricing"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link offcanvas-color" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link offcanvas-color" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex mt-3 mt-lg-0" role="search">
+                <button
+                  class="btn btn-primary rounded-0"
+                  id="book-nav"
+                  type="submit"
+                >
+                  Book now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- //navbar -->
+      <!-- hero -->
+      <section id="hero" class="min-vh-100 d-flex align-items-center">
+        <div class="container">
+          <div class="row px-4">
+            <div class="col-lg-7">
+              <p
+                id="hero-title"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+                data-aos-delay="400"
+              >
+                Pest Control & Cleaning Services
+              </p>
+              <h3
+                class="display-5 fw-bold text-white pt-3"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="800"
+              >
+                EASY TO <span class="spn-yellow">CLEAN HOUSE</span> AND OFFICE
+              </h3>
+              <p
+                class="mt-3 mb-4 text-light paragraph-size"
+                data-aos="fade-right"
+                data-aos-duration="2500"
+                data-aos-delay="1200"
+              >
+                Quickly design and customize responsive mobile-first sites with
+                Bootstrap, the world’s most popular front-end open source
+                toolkit, featuring Sass variables and mixins, responsive grid
+                system, extensive prebuilt components, and powerful JavaScript
+                plugins.
+              </p>
+              <div
+                class="aos-init"
+                data-aos="fade-right"
+                data-aos-duration="2500"
+                data-aos-delay="1500"
+              >
+                <a href="#" class="btn btn-primary"> Get Start Now </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //hero -->
+
+      <!-- about-us -->
+      <section id="about-us">
+        <div class="container">
+          <div
+            class="row flex-lg-row-reverse align-items-center mx-auto justify-content-center g-2"
+          >
+            <div id="about-before"></div>
+            <div
+              class="col col-10 col-sm-8 col-lg-5"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              <img
+                src="img/about-us.jpg"
+                class="d-block mx-lg-auto img-fluid"
+                id="img-about-us"
+                alt="about-us"
+                width=""
+                height=""
+                loading="lazy"
+              />
+            </div>
+            <div class="col-1 d-none d-md-block"></div>
+            <div class="col-lg-6">
+              <h1
+                class="display-6 fw-bold text-body-emphasis lh-1 mt-4 mb-3"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="400"
+              >
+                About us
+              </h1>
+              <p
+                class="lead py-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-delay="800"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolores accusantium perferendis illum suscipit dolore fugiat
+                quasi, veniam aliquam earum fugit totam ullam libero molestias
+                minima!
+              </p>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-delay="1200"
+              >
+                <div class="list-group">
+                  <div class="d-flex gap-3 py-3 border-0" aria-current="true">
+                    <img
+                      src="icon/shine.svg"
+                      alt="shine"
+                      width="32"
+                      height="32"
+                      class="icon-shine flex-shrink-0"
+                    />
+                    <div class="d-flex gap-2 w-100" style="align-items: center">
+                      <div><p class="mb-0">Best Quality</p></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-group">
+                  <div class="d-flex gap-3 py-3 border-0" aria-current="true">
+                    <img
+                      src="icon/shine.svg"
+                      alt="shine"
+                      width="32"
+                      height="32"
+                      class="icon-shine flex-shrink-0"
+                    />
+                    <div class="d-flex gap-2 w-100" style="align-items: center">
+                      <div><p class="mb-0">Affordable Prices</p></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-group">
+                  <div class="d-flex gap-3 py-3 border-0" aria-current="true">
+                    <img
+                      src="icon/shine.svg"
+                      alt="shine"
+                      width="32"
+                      height="32"
+                      class="icon-shine flex-shrink-0"
+                    />
+                    <div class="d-flex gap-2 w-100" style="align-items: center">
+                      <div><p class="mb-0">Standard cleaning tasks</p></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-group">
+                  <div class="d-flex gap-3 py-3 border-0" aria-current="true">
+                    <img
+                      src="icon/shine.svg"
+                      alt="shine"
+                      width="32"
+                      height="32"
+                      class="icon-shine flex-shrink-0"
+                    />
+                    <div class="d-flex gap-2 w-100" style="align-items: center">
+                      <div><p class="mb-0">Next day availability</p></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-grid d-md-flex justify-content-md-start mt-4">
+                  <button type="button" class="btn btn-primary btn-lg">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //about-us -->
+
+      <!-- services -->
+      <section id="services">
+        <div class="container">
+          <div class="row text-center mx-auto">
+            <h1
+              class="display-6 fw-bold text-body-emphasis"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              Services
+            </h1>
+            <div
+              class="col-lg-8 col-12 mx-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+            >
+              <p class="lead pt-3 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                libero at cumque deserunt numquam assumenda.
+              </p>
+            </div>
+          </div>
+          <div
+            class="row g-4 py-5 mb-5 row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center"
+          >
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1000"
+            >
+              <div class="card card-services h-100">
+                <div class="div-services-svg">
+                  <img
+                    src="icon/clean-window.svg"
+                    width="60"
+                    height="60"
+                    alt="clean-window-icon"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body card-body-services pb-5">
+                  <h5 class="card-title">Window Cleaning</h5>
+                  <p class="card-text pt-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Aperiam consequatur necessitatibus, atque accusantium
+                    laudantium rem
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1200"
+            >
+              <div class="card card-services border-0 h-100">
+                <div class="div-services-svg">
+                  <img
+                    src="icon/clean-house.svg"
+                    width="60"
+                    height="60"
+                    alt="clean-house-icon"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body card-body-services pb-5">
+                  <h5 class="card-title">House Cleaning</h5>
+                  <p class="card-text pt-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Aperiam consequatur necessitatibus, atque accusantium
+                    laudantium rem
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+            >
+              <div class="card card-services border-0 h-100">
+                <div class="div-services-svg">
+                  <img
+                    src="icon/clean-clothes.svg"
+                    width="60"
+                    height="60"
+                    alt="clean-clothes-icon"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body card-body-services pb-5">
+                  <h5 class="card-title">Clothes Cleaning</h5>
+                  <p class="card-text pt-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Aperiam consequatur necessitatibus, atque accusantium
+                    laudantium rem
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //services -->
+      <!-- pricing -->
+      <section id="pricing">
+        <div class="container">
+          <div class="row text-center">
+            <h1
+              class="display-6 fw-bold text-white"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              Our Pricing
+            </h1>
+            <div
+              class="col-lg-8 mx-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+            >
+              <p class="lead pt-3 pb-4 text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                libero at cumque deserunt numquam assumenda.
+              </p>
+            </div>
+          </div>
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5 py-5 g-4 text-center justify-content-center"
+          >
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1000"
+            >
+              <div class="card card-pricing mb-4 shadow-sm h-100">
+                <div class="card-header py-4">
+                  <h5 class="my-0 fw-semibold">Basic Package</h5>
+                </div>
+                <div class="card-body pt-0 mb-3">
+                  <h4 class="card-title pricing-card-title">
+                    $59.00<small class="fw-normal"> / mo</small>
+                  </h4>
+                  <ul class="lh-3 m-4 text-start">
+                    <li>Dusting of all surfaces</li>
+                    <li>Sweeping and mopping floors</li>
+                    <li>Vacuuming carpets and rugs</li>
+                    <li>Emptying trash bins</li>
+                    <li>Cleaning of kitchen surfaces</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-outline-primary">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1200"
+            >
+              <div class="card card-pricing mb-4 shadow-sm h-100">
+                <div class="card-header py-4">
+                  <h5 class="my-0 fw-semibold">Enterprise Package</h5>
+                </div>
+                <div class="card-body pt-0 mb-3">
+                  <h4 class="card-title pricing-card-title">
+                    $69.00<small class="fw-normal"> / mo</small>
+                  </h4>
+                  <ul class="lh-3 m-4 text-start">
+                    <li>Detailed dusting</li>
+                    <li>Wiping down of kitchen appt</li>
+                    <li>Changing bed linens</li>
+                    <li>Spot cleaning walls and doors</li>
+                    <li>All services in the Basic Plan</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-outline-primary">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+            >
+              <div class="card card-pricing mb-4 shadow-sm h-100">
+                <div class="card-header py-4">
+                  <h5 class="my-0 fw-semibold">Premium Package</h5>
+                </div>
+                <div class="card-body pt-0 mb-3">
+                  <h4 class="card-title pricing-card-title">
+                    $99.00<small class="fw-normal"> / mo</small>
+                  </h4>
+                  <ul class="lh-3 m-4 text-start">
+                    <li>All services in the Clean Plan</li>
+                    <li>Deep cleaning of kitchen appt</li>
+                    <li>Detailed bathroom cleaning</li>
+                    <li>Organization of closets</li>
+                    <li>upholstery spot cleaning</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-outline-primary">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //pricing -->
+
+      <!-- blog -->
+      <section id="blog">
+        <div class="container">
+          <div class="row text-center">
+            <h1
+              class="display-6 fw-bold text-body-emphasis"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              Blog
+            </h1>
+            <div
+              class="col-lg-8 mx-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+            >
+              <p class="lead pt-3 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                libero at cumque deserunt numquam assumenda.
+              </p>
+            </div>
+          </div>
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5 py-5 g-4 text-center justify-content-center"
+          >
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1000"
+            >
+              <div class="card h-100">
+                <div class="blog-img position-relative">
+                  <div class="img-zoom overflow-hidden">
+                    <img
+                      src="img/blog-1.jpg"
+                      class="card-img-top"
+                      alt="Blog-1"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="blog-date">
+                    <h6>22</h6>
+                    <span>APR</span>
+                  </div>
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title pb-2 pt-1">
+                    How We Keep Your Home Clean
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <div class="div-blog-link">
+                    <a href="#" class="blog-link"
+                      ><span class="spn-blog-link">Read more</span>
+                      <img
+                        src="icon/arrow-blog-link.svg"
+                        width="24"
+                        height="24"
+                        class="ms-1"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1200"
+            >
+              <div class="card h-100">
+                <div class="blog-img position-relative">
+                  <div class="img-zoom overflow-hidden">
+                    <img
+                      src="img/blog-2.jpg"
+                      class="card-img-top"
+                      alt="Blog-1"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="blog-date">
+                    <h6>16</h6>
+                    <span>JUL</span>
+                  </div>
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title pb-2 pt-1">
+                    How to Maintain a Clean Home
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <div class="div-blog-link">
+                    <a href="#" class="blog-link"
+                      ><span class="spn-blog-link">Read more</span>
+                      <img
+                        src="icon/arrow-blog-link.svg"
+                        width="24"
+                        height="24"
+                        class="ms-1"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+            >
+              <div class="card h-100">
+                <div class="blog-img position-relative">
+                  <div class="img-zoom overflow-hidden">
+                    <img
+                      src="img/blog-3.jpg"
+                      class="card-img-top"
+                      alt="Blog-1"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="blog-date">
+                    <h6>31</h6>
+                    <span>DEC</span>
+                  </div>
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title pb-2 pt-1">
+                    How We Keep Your Home Clean
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <div class="div-blog-link">
+                    <a href="#" class="blog-link"
+                      ><span class="spn-blog-link">Read more</span>
+                      <img
+                        src="icon/arrow-blog-link.svg"
+                        width="24"
+                        height="24"
+                        class="ms-1"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //blog -->
+      <!-- newes-letter -->
+      <section id="newsletter">
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-md-2 align-items-center g-4 g-md-5"
+          >
+            <div class="col">
+              <h4 class="text-white">Subscribe To Our News Letter</h4>
+              <p class="mb-0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, quibusdam.
+              </p>
+            </div>
+            <div class="col">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Email"
+                  aria-label="Enter Your Email"
+                  aria-describedby="button-addon2"
+                />
+                <button class="btn bg-white" type="button" id="button-addon2">
+                  <img src="icon/send.svg" alt="btn-newsletter" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //newes-letter -->
+      <!-- contact -->
+
+      <section id="contact">
+        <div class="container">
+          <div class="row text-center">
+            <h1
+              class="display-6 fw-bold text-body-emphasis"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              Contact
+            </h1>
+            <div
+              class="col-lg-8 mx-auto"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+            >
+              <p class="lead pt-3 pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                libero at cumque deserunt numquam assumenda.
+              </p>
+            </div>
+          </div>
+          <div class="row row-cols-lg-2 row-cols-1 justify-content-center">
+            <div class="col g-3">
+              <div
+                class="list-group"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1000"
+              >
+                <div
+                  class="list-group-item align-items-center d-flex gap-3 border-0 mb-5"
+                  aria-current="true"
+                >
+                  <div class="bg-primary rounded-pill">
+                    <img
+                      src="icon/telephone.svg"
+                      alt="phone-icon"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="d-flex w-100">
+                    <div>
+                      <h6 class="mb-0 h-contact">Call Us</h6>
+                      <p class="mb-0 opacity-75">+(00) 123 456 789</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="list-group-item align-items-center d-flex gap-3 border-0 mb-5"
+                  aria-current="true"
+                >
+                  <div class="bg-primary rounded-pill">
+                    <img
+                      src="icon/email.svg"
+                      alt="phone-icon"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="d-flex w-100">
+                    <div>
+                      <h6 class="mb-0 h-contact">Email</h6>
+                      <p class="mb-0 opacity-75">example@email.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="list-group-item align-items-center d-flex gap-3 border-0"
+                  aria-current="true"
+                >
+                  <div class="bg-primary rounded-pill">
+                    <img
+                      src="icon/address.svg"
+                      alt="phone-icon"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="d-flex w-100">
+                    <div>
+                      <h6 class="mb-0 h-contact">Address</h6>
+                      <p class="mb-0 opacity-75">
+                        7510, Brand Tower, New York, USA
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row col g-3"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1000"
+            >
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first_name"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last_name"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="number"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="col-md-12">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  placeholder="Enter Your Message"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="pt-3">
+                <button class="btn btn-primary">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //contact -->
+      <!-- footer -->
+      <footer id="footer">
+        <div class="container">
+          <div class="row row-cols-1">
+            <div class="col col-lg-5 mb-3">
+              <a
+                href="#"
+                class="d-flex align-items-center mb-3 text-white text-decoration-none fs-5"
+                aria-label="Bootstrap"
+              >
+                CleanPro
+              </a>
+              <p class="footer-p pb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                error temporibus dignissimos ut ipsum corporis. Animi, eaque
+                dignissimos? Voluptas officia magni delectus possimus unde ipsa.
+              </p>
+              <ul
+                class="nav col-md-4 flex-nowrap mb-5"
+                style="display: -webkit-box"
+              >
+                <li class="">
+                  <a
+                    class="text-body-secondary li-footer"
+                    href="#"
+                    aria-label="Instagram"
+                    ><img
+                      src="icon/instagram.svg"
+                      alt="instagram"
+                      title="instagram"
+                      loading="lazy"
+                  /></a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="text-body-secondary li-footer"
+                    href="#"
+                    aria-label="Facebook"
+                    ><img
+                      src="icon/twitter.svg"
+                      alt="twitter"
+                      title="twitter"
+                      loading="lazy"
+                  /></a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="text-body-secondary li-footer"
+                    href="#"
+                    aria-label="Facebook"
+                    ><img
+                      src="icon/facebook.svg"
+                      alt="facebook"
+                      title="facebook"
+                      loading="lazy"
+                  /></a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="text-body-secondary li-footer"
+                    href="#"
+                    aria-label="Facebook"
+                    ><img
+                      src="icon/whatsapp.svg"
+                      alt="whatsapp"
+                      title="whatsapp"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col col-lg-3 mb-3">
+              <h5 class="text-white">Company</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Features</a
+                  >
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-lg-3 mb-3">
+              <h5 class="text-white">Information</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-4" style="width: max-content">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Client Support</a
+                  >
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Privacy Policies</a
+                  >
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Terms of use</a
+                  >
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Services Policies</a
+                  >
+                </li>
+                <li class="nav-item mb-4">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Brochure</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //footer -->
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>
